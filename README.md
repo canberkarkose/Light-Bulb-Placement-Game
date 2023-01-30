@@ -21,4 +21,4 @@ A JavaScript game where the goal is to place light bulbs to enlighten white bloc
 # Requirements
 JavaScript enabled web browser
 
-## Enjoy and have fun playing the Light Bulb Replacement Game!
+### Enjoy and have fun playing the Light Bulb Replacement Game!
