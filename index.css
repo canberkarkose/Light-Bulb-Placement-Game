@@ -1,0 +1,85 @@
+img {
+    width: 50%;
+    height: auto;
+}
+
+body {
+    text-align: center;
+    background-image: url(intro.png);
+    background-color: whitesmoke;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    margin-bottom: 0%;
+}
+
+.explanation {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    color: black;
+    text-align: center;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 0%;
+    background-image: url(explanation.png);
+}
+
+.cell {
+    height: 30px;
+    width: 30px;
+    border: 1.5px solid grey;
+    border-style: inset;
+    text-align: center;
+}
+
+.yellowcell {
+    background-color: #fffd8c;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+.redcell {
+    background-color: #ff8c8c;
+    transition-property: background-color;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+}
+
+@keyframes fade {
+    0% {
+        background-color: #fffd8c;
+    }
+
+    100% {
+        background-color: #ff8c8c;
+    }
+}
+
+
+.blackcell {
+    background-color: black;
+}
+
+.whitecell {
+    background-color: white;
+}
+
+label {
+    font-family: 'Georgia', serif;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+
+}
+
+a {
+    font-family: 'Georgia', serif;
+    font-size: 30px;
+}

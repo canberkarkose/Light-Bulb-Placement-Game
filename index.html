@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Light Bulb Placement Game</title>
+</head>
+
+<body>
+    <h3 class="title">Light Bulb Placement Game</h3>
+    <a>Time Elapsed </a><label id="minutes">00</label><a>:</a><label id="seconds">00</label>
+    <div class="explanation" id="explanation">
+        <p><strong>
+                Once upon a time, King Unnamed of Nowhereland was both smiling and crying at the same time. He was
+                smiling
+                because his enormous brand-new palace with many spacious rooms and corridors has just been finished. He
+                is
+                also crying as these rooms need to be illuminated and kept warm, but the ongoing increase of utility
+                costs
+                affect him as well. So now it's time to think about the placement of the palace's light bulbs. We need
+                to
+                place them so that everything is properly lit, but we cannot install any unnecessary bulbs. You can
+                start the game
+                by choosing one of the maps (according to their difficulty) You can save, load or refresh your game by
+                pressing
+                the according buttons. Once one map is generated, this text will disappear and your map will come to the
+                screen. The game has
+                autosaving feature, whenever you place a lightbulb the game saves it for you, so you don't need to worry
+                about losing your progress. You can also see your old progress by pressing the load button.
+                Good Luck!</strong></p>
+    </div>
+    <input type="text" id="name" placeholder="Enter your username" required>
+    <a id="usernameIngame" style="display: none;"></a> <br> <br>
+    <button type="button" id="easy">Easy 7x7 Map</button>
+    <button type="button" id="advanced">Advanced 7x7 Map</button>
+    <button type="button" id="extreme">Extreme 10x10 Map</button>
+    <button type="button" id="save">Save Game</button>
+    <button type="button" id="load">Load Game</button>
+
+    <script src="index.js"></script>
+
+
+</body>
+
+</html>
